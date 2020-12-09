@@ -1,2 +1,3 @@
+include ':Overscroller'
 include ':app'
 rootProject.name = "SampleApp"
