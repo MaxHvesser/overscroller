@@ -3,7 +3,9 @@ package no.overscroller.sampleapp.basic
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.view.WindowInsets
 import androidx.core.view.WindowCompat
+import androidx.core.view.updatePadding
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
@@ -33,6 +35,11 @@ class BasicListActivity : AppCompatActivity() {
     // region View Setup
     private fun setupEdgeToEdge() {
         WindowCompat.setDecorFitsSystemWindows(window, false)
+
+        binding.parent.setOnApplyWindowInsetsListener { _, insets ->
+            binding.appBar.updatePadding(top = insets.systemWindowInsetTop)
+            insets
+        }
     }
     // endregion
 
