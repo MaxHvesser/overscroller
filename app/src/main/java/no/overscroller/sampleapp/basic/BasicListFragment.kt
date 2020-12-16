@@ -10,7 +10,7 @@ import no.overscroller.sampleapp.databinding.FragmentListBasicBinding
 class BasicListFragment : Fragment() {
 
     // region Properties
-    private lateinit var viewDataBinding: FragmentListBasicBinding
+    private lateinit var binding: FragmentListBasicBinding
     // endregion
 
     // region Initialization
@@ -19,8 +19,8 @@ class BasicListFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        viewDataBinding = FragmentListBasicBinding.inflate(inflater, container, false)
-        return viewDataBinding.root
+        binding = FragmentListBasicBinding.inflate(inflater, container, false)
+        return binding.root
     }
     // endregion
 

@@ -9,6 +9,7 @@
     <fragment
         android:id="@+id/basicListFragment"
         android:name="no.overscroller.sampleapp.basic.BasicListFragment"
-        android:label="BasicListFragment" />
+        android:label="BasicListFragment"
+        tools:layout="@layout/fragment_list_basic"/>
 
 </navigation>
