@@ -33,6 +33,7 @@ class BasicListActivity : AppCompatActivity() {
     // endregion
 
     // region View Setup
+    @Suppress("DEPRECATION")
     private fun setupEdgeToEdge() {
         WindowCompat.setDecorFitsSystemWindows(window, false)
 
