@@ -13,9 +13,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="backgroundPrimary">@color/white</color>
+    <color name="backgroundPrimary">@color/black</color>
 
-    <color name="textPrimary">@color/black</color>
+    <color name="textPrimary">@color/white</color>
     <!-- endregion -->
 
 </resources>

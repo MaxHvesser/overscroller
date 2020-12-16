@@ -39,6 +39,7 @@ class BasicListActivity : AppCompatActivity() {
 
         binding.parent.setOnApplyWindowInsetsListener { _, insets ->
             binding.appBar.updatePadding(top = insets.systemWindowInsetTop)
+            binding.parent.updatePadding(bottom = insets.systemWindowInsetBottom)
             insets
         }
     }

@@ -6,7 +6,8 @@
     android:id="@+id/parent"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".basic.BasicListActivity">
+    tools:context=".basic.BasicListActivity"
+    android:background="@color/backgroundPrimary">
 
     <!-- Main Content Container -->
     <LinearLayout
@@ -19,7 +20,8 @@
             android:id="@+id/app_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@android:color/white">
+            android:background="@color/backgroundPrimary"
+            app:elevation="0dp">
 
             <!-- Toolbar -->
             <androidx.appcompat.widget.Toolbar
@@ -28,6 +30,7 @@
                 android:layout_height="wrap_content"
                 android:minHeight="?attr/actionBarSize"
                 app:title="@string/app_name"
+                app:titleTextColor="@color/textPrimary"
                 android:theme="@style/ThemeOverlay.AppCompat.Light"/>
 
         </com.google.android.material.appbar.AppBarLayout>
