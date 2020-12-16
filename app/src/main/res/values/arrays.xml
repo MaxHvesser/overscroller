@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- region Basic List -->
+    <string-array name="basic_list_items">
+        <item>Apple</item>
+        <item>Book</item>
+        <item>City</item>
+        <item>Day</item>
+        <item>Elephant</item>
+        <item>Friend</item>
+        <item>Germany</item>
+        <item>House</item>
+        <item>India</item>
+        <item>Job</item>
+        <item>Kite</item>
+        <item>Leaf</item>
+        <item>Many</item>
+        <item>Noon</item>
+        <item>Opera</item>
+        <item>People</item>
+        <item>Squid</item>
+        <item>Rome</item>
+        <item>Smile</item>
+        <item>Tomorrow</item>
+        <item>Universe</item>
+        <item>World</item>
+        <item>Vase</item>
+        <item>Wax</item>
+        <item>Year</item>
+        <item>Zebra</item>
+    </string-array>
+    <!-- endregion -->
+
+</resources>
