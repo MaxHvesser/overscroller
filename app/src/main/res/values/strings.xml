@@ -1,3 +1,11 @@
 <resources>
+
+    <!-- region App Name -->
     <string name="app_name">SampleApp</string>
+    <!-- endregion -->
+
+    <!-- region Basic List -->
+    <string name="basic_list_title">Overscroller</string>
+    <!-- endregion -->
+
 </resources>

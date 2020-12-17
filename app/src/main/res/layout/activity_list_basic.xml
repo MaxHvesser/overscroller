@@ -29,7 +29,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:minHeight="?attr/actionBarSize"
-                app:title="@string/app_name"
+                app:title="@string/basic_list_title"
                 app:titleTextColor="@color/textPrimary"
                 android:theme="@style/ThemeOverlay.AppCompat.Light"/>
 

@@ -3,32 +3,90 @@
 
     <!-- region Basic List -->
     <string-array name="basic_list_items">
-        <item>Apple 🍎</item>
-        <item>Book 📚</item>
-        <item>City 🌆</item>
-        <item>Day ☀️</item>
-        <item>Elephant 🐘</item>
-        <item>Friend 👯‍️</item>
-        <item>Germany 🇩🇪</item>
-        <item>House 🏡</item>
-        <item>India 🇮🇳</item>
-        <item>Job 💼</item>
-        <item>Kite 🪁</item>
-        <item>Leaf 🍂</item>
-        <item>Mouse 🐭</item>
-        <item>Noon 🕛</item>
-        <item>Opera 🎭</item>
-        <item>People 👨‍👩‍👧‍👦</item>
-        <item>Squid 🦑</item>
-        <item>Rome 🏛</item>
-        <item>Smile 😄</item>
-        <item>Train 🚊</item>
-        <item>Universe 🪐</item>
-        <item>World 🌎</item>
-        <item>Vase 🏺</item>
-        <item>Wax 🕯</item>
-        <item>Year 🎊</item>
-        <item>Zebra 🦓</item>
+        <item>Ant</item>
+        <item>Badger</item>
+        <item>Bat</item>
+        <item>Bear</item>
+        <item>Bird</item>
+        <item>Blowfish</item>
+        <item>Boar</item>
+        <item>Bug</item>
+        <item>Butterfly</item>
+        <item>Camel</item>
+        <item>Cat</item>
+        <item>Chicken</item>
+        <item>Chipmunk</item>
+        <item>Cow</item>
+        <item>Cricket</item>
+        <item>Crocodile</item>
+        <item>Deer</item>
+        <item>Dog</item>
+        <item>Dolphin</item>
+        <item>Dove</item>
+        <item>Dragon</item>
+        <item>Duck</item>
+        <item>Eagle</item>
+        <item>Elephant</item>
+        <item>Ewe</item>
+        <item>Fish</item>
+        <item>Flamingo</item>
+        <item>Fox</item>
+        <item>Frog</item>
+        <item>Giraffe</item>
+        <item>Goat</item>
+        <item>Gorilla</item>
+        <item>Hamster</item>
+        <item>Hedgehog</item>
+        <item>Hippopotamus</item>
+        <item>Honeybee</item>
+        <item>Horse</item>
+        <item>Kangaroo</item>
+        <item>Koala</item>
+        <item>Lady beetle</item>
+        <item>Leopard</item>
+        <item>Lion</item>
+        <item>Lizard</item>
+        <item>Llama</item>
+        <item>Microbe</item>
+        <item>Monkey</item>
+        <item>Mosquito</item>
+        <item>Mouse</item>
+        <item>Octopus</item>
+        <item>Orangutan</item>
+        <item>Otter</item>
+        <item>Owl</item>
+        <item>Ox</item>
+        <item>Panda</item>
+        <item>Parrot</item>
+        <item>Peacock</item>
+        <item>Penguin</item>
+        <item>Pig</item>
+        <item>Poodle</item>
+        <item>Rabbit</item>
+        <item>Raccoon</item>
+        <item>Ram</item>
+        <item>Rat</item>
+        <item>Rhinoceros</item>
+        <item>Rooster</item>
+        <item>Sauropod</item>
+        <item>Scorpion</item>
+        <item>Shark</item>
+        <item>Skunk</item>
+        <item>Sloth</item>
+        <item>Snail</item>
+        <item>Snake</item>
+        <item>Spider</item>
+        <item>Swan</item>
+        <item>T-Rex</item>
+        <item>Tiger</item>
+        <item>Tropical fish</item>
+        <item>Turkey</item>
+        <item>Turtle</item>
+        <item>Unicorn</item>
+        <item>Water buffalo</item>
+        <item>Whale</item>
+        <item>Wolf</item>
+        <item>Zebra</item>
     </string-array>
     <!-- endregion -->
 

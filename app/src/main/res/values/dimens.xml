@@ -8,4 +8,8 @@
     <dimen name="large">64dp</dimen>
     <!-- endregion -->
 
+    <!-- region Basic List -->
+    <dimen name="animal_icon_size">24dp</dimen>
+    <!-- endregion -->
+
 </resources>
