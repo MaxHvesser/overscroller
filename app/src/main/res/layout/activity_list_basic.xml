@@ -29,9 +29,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:minHeight="?attr/actionBarSize"
-                app:title="@string/basic_list_title"
-                app:titleTextColor="@color/textPrimary"
-                android:theme="@style/ThemeOverlay.AppCompat.Light"/>
+                android:theme="@style/ThemeOverlay.AppCompat.Light">
+
+                <!-- Centered Title -->
+                <TextView
+                    android:id="@+id/toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/basic_list_title"
+                    android:typeface="monospace"
+                    android:textStyle="bold"
+                    android:textColor="@color/textPrimary"
+                    android:layout_gravity="center"/>
+
+            </androidx.appcompat.widget.Toolbar>
 
         </com.google.android.material.appbar.AppBarLayout>
 
