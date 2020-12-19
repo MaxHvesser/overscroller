@@ -7,6 +7,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.appbar.AppBarLayout
 import no.overscroller.sampleapp.R
 import no.overscroller.sampleapp.basic.adapter.BasicListItemAdapter
 import no.overscroller.sampleapp.databinding.FragmentListBasicBinding
@@ -19,6 +21,7 @@ class BasicListFragment : Fragment() {
     private val viewModel by viewModels<BasicListViewModel> { getViewModelFactory() }
 
     private lateinit var itemAdapter: BasicListItemAdapter
+    private val linearLayoutManager: LinearLayoutManager = LinearLayoutManager(context)
     // endregion
 
     // region Initialization
@@ -31,6 +34,7 @@ class BasicListFragment : Fragment() {
 
         setupTestData()
         setupBasicItemRecycler()
+        setupAppBarLifting()
 
         return binding.root
     }
@@ -45,7 +49,18 @@ class BasicListFragment : Fragment() {
         itemAdapter = BasicListItemAdapter(viewModel.testItems)
         binding.recycler.apply {
             adapter = itemAdapter
-            layoutManager = LinearLayoutManager(context)
+            layoutManager = linearLayoutManager
+        }
+    }
+
+    private fun setupAppBarLifting() {
+        activity?.findViewById<AppBarLayout>(R.id.app_bar)?.let { appBar ->
+            binding.recycler.addOnScrollListener(object: RecyclerView.OnScrollListener() {
+                override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
+                    super.onScrolled(recyclerView, dx, dy)
+                    appBar.setLiftable(linearLayoutManager.findFirstCompletelyVisibleItemPosition() == 0)
+                }
+            })
         }
     }
     // endregion
